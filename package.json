@@ -1,0 +1,16 @@
+{
+  "name": "cache",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fookie": "^0.9.81",
+    "fookie-cache": "^0.0.11",
+    "fookie-server": "^0.0.42"
+  }
+}
