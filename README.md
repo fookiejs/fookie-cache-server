@@ -3,6 +3,48 @@ This is a entity-base queryable in-memory database.
 ## Example HTTP request body
 
 
+
+### Create Model
+```Javascript
+{
+    token: "your-system-token"
+    method: "create"
+    model:"model",
+    mixin: []
+    body:{
+        name:"user",
+        database:"store",
+        schema:{
+            name:{
+                type: "string",
+                required: true
+            },
+             surname:{
+                type: "string",
+                required: true
+            },
+        }
+        lifecycle:{
+            create:{
+                role: ["system"]
+            },
+             read:{
+                role: ["system"]
+            },
+             delete:{
+                role: ["system"]
+            },
+             update:{
+                role: ["system"]
+            },
+            count:{
+                role: ["system"]
+            },
+        }
+    }
+}
+```
+
 ### Create an entity
 ```Javascript
 {
