@@ -49,7 +49,7 @@ This is an entity-base queryable in-memory database.
 ```Javascript
 {
     token: "your-system-token"
-    method: "user"
+    model: "user"
     method:"create",
     body:{
         name:"John",
@@ -65,7 +65,7 @@ This is an entity-base queryable in-memory database.
 ```Javascript
 {
     token: "your-system-token"
-    method: "user"
+    model: "user"
     method:"create",
     body:{
         name: "Jonh"
@@ -77,7 +77,7 @@ This is an entity-base queryable in-memory database.
 ```Javascript
 {
     token: "your-system-token"
-    method: "user"
+    model: "user"
     method:"update",
     query:{
         filter:{
@@ -96,7 +96,7 @@ This is an entity-base queryable in-memory database.
 ```Javascript
 {
     token: "your-system-token"
-    method: "user"
+    model: "user"
     method:"delete",
     query:{
         filter:{
