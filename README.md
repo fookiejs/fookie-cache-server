@@ -67,10 +67,8 @@ This is an entity-base queryable in-memory database.
     token: "your-system-token"
     method: "user"
     method:"create",
-    query:{
-        filter:{
-            name: "Jonh"
-        }
+    body:{
+        name: "Jonh"
     },
 }
 ```
@@ -80,7 +78,7 @@ This is an entity-base queryable in-memory database.
 {
     token: "your-system-token"
     method: "user"
-    method:"delete",
+    method:"update",
     query:{
         filter:{
             name:{
