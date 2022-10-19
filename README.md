@@ -1,4 +1,4 @@
-This is a entity-base queryable in-memory database.
+This is an entity-base queryable in-memory database.
 
 ## Example HTTP request bodies.
 
