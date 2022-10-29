@@ -66,9 +66,11 @@ This is an entity-base queryable in-memory database.
 {
     token: "your-system-token"
     model: "user"
-    method:"create",
-    body:{
-        name: "Jonh"
+    method:"read",
+    query:{
+        filter:{
+            name: "Jonh"
+        }
     },
 }
 ```
