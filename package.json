@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fookie": "^0.9.81",
+    "fookie": "^0.9.935",
     "fookie-cache": "^0.0.11",
     "fookie-server": "^0.0.42"
   }
